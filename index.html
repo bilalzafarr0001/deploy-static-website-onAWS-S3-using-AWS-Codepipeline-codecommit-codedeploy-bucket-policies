@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> <%= title %> page of sample node app</title>
+    
+    <!-- Twitter opensource Bootstarp CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; color: rgb(0, 60, 255)}
+    </style>
+
+</head>
+
+<body class="container" style="background-color: rgb(161, 101, 101);">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(129, 45, 62);">
+            <!-- <a class="navbar-brand" href="/">EJS Is Fun</a> -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="background-color: white;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="background-color: white;">About</a>
+                  </li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h1>You are looking at this page on <%= hostname %>.</h1>
+            <h1>This is great, application works ! Click on About Tab to load the other page. The pages are divided in four parts head, header, body, footer. The body of every page will change according to page/data requested.</h1>
+            <h1>Welcome to templating using EJS.</h1>
+        </div>
+    </main>
+
+    <footer>
+        <p class="text-center">© Copyright 2020 </p>
+    </footer>
+</body>
+</html>

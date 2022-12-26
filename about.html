@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> <%= title %> page of sample node app</title>
+    
+    <!-- Twitter opensource Bootstarp CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding-top:50px; color: rgb(0, 60, 255)}
+    </style>
+  </head>
+
+  <body class="container" style="background-color: rgb(148, 156, 96)">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(129, 45, 62);">
+            <!-- <a class="navbar-brand" href="/">EJS Is Fun</a> -->
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="background-color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="background-color: white;">About</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+
+    <main>
+      <div class="jumbotron">
+        <h1>
+          This is a sample application. It has been created using NodeJS,
+          Expressjs and EJS. Six RestFul APIs have been created for CURD
+          operations with AWS DynamoDB..
+        </h1>
+        <p></p>
+        <p>/createTable</p>
+        <p>/insertData</p>
+        <p>/updateData</p>
+        <p>/readData</p>
+        <p>/deleteItem</p>
+        <p>/deleteTable</p>
+      </div>
+    </main>
+
+    <footer>
+        <p class="text-center">© Copyright 2020 </p>
+    </footer>
+  </body>
+</html>
